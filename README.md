@@ -34,7 +34,7 @@ This repo contains a notebook (.ipynb) in which I explored the International Deb
 
 The notebook (.ipynb) provides all details relating to data exploration.
 
-After inspecting the international_debt table in the BigQuery dataset, I found that all 3.28 million rows had null year values and 94% of the rows had null debt values. In total, there were 138,152 rows with non-null and non-zero debt values, of which 2,467 were unique. The unique rows were grouped and joined to other tables in the dataset to determine the highest-debt countries, total debt owed by all countries, and debt per income group, region, and debt indicator. Due to the null debt and year values in the international_debt table, the BigQuery dataset currently appears limited in its use for exploring aggregate debt and temporal aspects. If the BigQuery dataset is fixed, the SQL queries can be rerun to derive accurate estimates.
+After inspecting the international_debt table in the BigQuery dataset, I found that all 3.28 million rows had null year values and 94% of the rows had null debt values. In total, there were 138,152 rows with non-null and non-zero debt values, of which 2,467 were unique. The unique rows were grouped and joined with other tables in the dataset to determine the highest-debt countries, total debt owed by all countries, and debt per income group, region, and debt indicator. Due to the null debt and year values in the international_debt table, the BigQuery dataset currently appears limited in its use for exploring aggregate debt and temporal aspects. If the BigQuery dataset is fixed, the SQL queries can be rerun to derive accurate estimates.
 
 ## References
 
